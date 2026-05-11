@@ -39,6 +39,7 @@
                         {{ $property->status }}
                     </span>
                 </td>
+                
                 <td class="px-4 py-2 flex gap-2">
                     <a href="/properties/{{ $property->propertyNo }}/edit"
                         class="text-blue-600 hover:underline">Edit</a>
