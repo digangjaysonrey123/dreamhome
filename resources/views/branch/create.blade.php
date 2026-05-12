@@ -1,0 +1,29 @@
+@extends('layouts.app')
+@ection('content')
+<div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-800">Add New Branch</h1>
+</div>
+<div class="bg-white rounded-lg shadow p-6">
+    <form action="/branch" method="POST">
+        @csrf
+        <div class="grid grid-cols-2 gap-4">
+            <div><label class="block text-sm text-gray-600 mb-1">Branch Number</label>
+                <input type="number" name="branchNo" class="w-full border rounded px-3 py-2" required></div>
+            <div><label class="block text-sm text-gray-600 mb-1">Street</label>
+                <input type="text" name="street" class="w-full border rounded px-3 py-2"></div>
+            <div><label class="block text-sm text-gray-600 mb-1">Area</label>
+                <input type="text" name="area" class="w-full border rounded px-3 py-2"></div>
+            <div><label class="block text-sm text-gray-600 mb-1">City</label>
+                <input type="text" name="city" class="w-full border rounded px-3 py-2"></div>
+            <div><label class="block text-sm text-gray-600 mb-1">Postcode</label>
+                <input type="number" name="postcode" class="w-full border rounded px-3 py-2"></div>
+            <div><label class="block text-sm text-gray-600 mb-1">Telephone</label>
+                <input type="number" name="telNo" class="w-full border rounded px-3 py-2"></div>
+        </div>
+        <div class="mt-4 flex gap-3">
+            <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Save Branch</button>
+            <a href="/staff" class="bg-gray-300 text-gray-700 px-6 py-2 rounded hover:bg-gray-400">Cancel</a>
+        </div>
+    </form>
+</div>
+@endsection
