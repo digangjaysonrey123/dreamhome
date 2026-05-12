@@ -11,7 +11,6 @@ class Lease extends Model
     public $incrementing = false;
     protected $keyType = 'string';
     public $timestamps = false;
-
     protected $fillable = [
         'leaseNo', 'propertyNo', 'renterNo', 'staffNo',
         'rentStart', 'rentFinish', 'monthlyRent', 'rentalDeposit',
