@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@ection('content')
+@section('content')
 <div class="mb-6">
     <h1 class="text-2xl font-bold text-gray-800">Add New Branch</h1>
 </div>
@@ -8,7 +8,7 @@
         @csrf
         <div class="grid grid-cols-2 gap-4">
             <div><label class="block text-sm text-gray-600 mb-1">Branch Number</label>
-                <input type="number" name="branchNo" class="w-full border rounded px-3 py-2" required></div>
+                <input type="text" name="branchNo" class="w-full border rounded px-3 py-2" required></div>
             <div><label class="block text-sm text-gray-600 mb-1">Street</label>
                 <input type="text" name="street" class="w-full border rounded px-3 py-2"></div>
             <div><label class="block text-sm text-gray-600 mb-1">Area</label>

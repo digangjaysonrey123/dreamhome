@@ -9,7 +9,6 @@
 </div>
 
 
-{{-- Branch table --}}
 <div class="bg-white rounded-lg shadow p-6 mb-6">
     <h2 class="text-lg font-semibold text-gray-700 mb-4">Branches</h2>
     <table class="w-full text-sm">

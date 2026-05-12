@@ -4,7 +4,6 @@
 
 <h1 class="text-2xl font-bold text-gray-800 mb-6">Dashboard</h1>
 
-<!-- Overview Cards -->
 <div class="grid grid-cols-4 gap-6 mb-8">
 
     <div class="bg-white rounded-lg shadow p-6 border-l-4 border-blue-500">
@@ -29,7 +28,6 @@
 
 </div>
 
-<!-- Recent Properties -->
 <div class="bg-white rounded-lg shadow p-6 mb-6">
     <h2 class="text-lg font-bold text-gray-700 mb-4">Recent Properties</h2>
     <table class="w-full text-sm">

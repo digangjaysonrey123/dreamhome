@@ -8,8 +8,7 @@ use Illuminate\Http\Request;
 class BranchController extends Controller
 {
     public function index() {
-        $branches = DB::table('Branch')->get();
-        return view('branch.index', compact('branches'));
+        return redirect('/staff');
     }
 
     public function create() {

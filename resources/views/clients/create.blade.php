@@ -74,6 +74,11 @@
             </div>
 
             <div>
+                <label class="block text-sm text-gray-600 mb-1">Seen Date</label>
+                <input type="date" name="seenDate" class="w-full border rounded px-3 py-2">
+            </div>
+
+            <div>
                 <label class="block text-sm text-gray-600 mb-1">Assign Staff</label>
                 <select name="seenBy" class="w-full border rounded px-3 py-2">
                     <option value="">-- Select Staff --</option>

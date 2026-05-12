@@ -21,7 +21,7 @@
                     <option value="Secretary"  {{ $member->position == 'Secretary'  ? 'selected' : '' }}>Secretary</option>
                     <option value="PropStaff"  {{ $member->position == 'PropStaff'  ? 'selected' : '' }}>Property Staff</option>
                 </select>
-            </div>  {{-- ← this was missing --}}
+            </div>
             <div><label class="block text-sm text-gray-600 mb-1">Salary</label>
                 <input type="number" name="salary" value="{{ $member->salary }}" class="w-full border rounded px-3 py-2"></div>
             <div><label class="block text-sm text-gray-600 mb-1">Branch</label>
@@ -62,7 +62,7 @@ const ranks = {
     'PropStaff': 1,
 };
 
-const currentStaffNo = "{{ $member->staffNo }}"; // ← fixed from $staff to $member
+const currentStaffNo = "{{ $member->staffNo }}";
 
 function toggleFields() {
     const position = document.getElementById('position').value;

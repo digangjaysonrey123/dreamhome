@@ -8,7 +8,7 @@
         @csrf
         <div class="grid grid-cols-2 gap-4">
             <div><label class="block text-sm text-gray-600 mb-1">Staff No</label>
-                <input type="number" name="staffNo" class="w-full border rounded px-3 py-2" required></div>
+                <input type="text" name="staffNo" class="w-full border rounded px-3 py-2" required></div>
             <div><label class="block text-sm text-gray-600 mb-1">First Name</label>
                 <input type="text" name="fName" class="w-full border rounded px-3 py-2" required></div>
             <div><label class="block text-sm text-gray-600 mb-1">Last Name</label>
@@ -106,7 +106,7 @@ function toggleFields() {
 
     const options = document.querySelectorAll('#supervisorNo option');
     options.forEach(option => {
-        if (option.value === '') return; // keep default option
+        if (option.value === '') return;
         const optionRank = ranks[option.getAttribute('data-position')] || 0;
         const isSelf = option.value === currentStaffNo;
         option.style.display = (optionRank > currentRank && !isSelf) ? 'block' : 'none';
@@ -114,9 +114,6 @@ function toggleFields() {
 
     document.getElementById('supervisorNo').value = '';
 }
-
-toggleFields();
-</script>
 
 toggleFields();
 </script>

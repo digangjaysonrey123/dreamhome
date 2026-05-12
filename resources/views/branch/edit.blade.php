@@ -1,5 +1,3 @@
-{{-- edit ni branch --}}
-
 @extends('layouts.app')
 @section('content')
 <div class="mb-6">
