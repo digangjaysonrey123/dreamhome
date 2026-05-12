@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\StaffController;
+use App\Http\Controllers\BranchController;
 use App\Http\Controllers\PropertyController;
+
 
 Route::get('/', function () {
     return redirect('/login');
@@ -16,7 +19,7 @@ Route::middleware(['auth'])->group(function () {
         $activeLeases = \App\Models\Lease::where('status', 'Active')->count();
         $recentProperties = \App\Models\PropertyForRent::orderBy('propertyNo')->take(5)->get();
 
-        return view('dashboard', compact(
+        return view('dashboard', compact(   // ← this line was missing
             'totalProperties',
             'totalStaff',
             'totalRenters',
@@ -26,6 +29,8 @@ Route::middleware(['auth'])->group(function () {
     })->name('dashboard');
 
     Route::resource('clients', ClientController::class);
+    Route::resource('staff', StaffController::class);
+    Route::resource('branch', BranchController::class);
     Route::resource('properties', PropertyController::class);
 });
 

@@ -1,9 +1,7 @@
 <?php
 
 namespace App\Models;
-
 use Illuminate\Database\Eloquent\Model;
-
 class Staff extends Model
 {
     protected $table = 'Staff';
@@ -11,7 +9,6 @@ class Staff extends Model
     public $incrementing = false;
     protected $keyType = 'string';
     public $timestamps = false;
-
     protected $fillable = [
         'staffNo', 'fName', 'lName', 'street', 'area', 'city',
         'postcode', 'telNo', 'sex', 'DOB', 'NIN', 'position',
