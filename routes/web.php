@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\PropertyController;
 
 Route::get('/', function () {
     return redirect('/login');
@@ -25,6 +26,7 @@ Route::middleware(['auth'])->group(function () {
     })->name('dashboard');
 
     Route::resource('clients', ClientController::class);
+    Route::resource('properties', PropertyController::class);
 });
 
 require __DIR__.'/auth.php';
