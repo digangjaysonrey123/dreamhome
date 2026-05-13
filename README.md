@@ -213,79 +213,79 @@ Railway - https://railway.appi
 
 ### Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](Screenshots/login.png)
 
 ---
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.png)
 
 ---
 
 ### User Management
 
-![User Management](screenshots/users.png)
+![User Management](Screenshots/users.png)
 
 ---
 
 ### Add New User
 
-![Add New User](screenshots/users_create.png)
+![Add New User](Screenshots/users_create.png)
 
 ---
 
 ### Client & Registration Module
 
-![Clients](screenshots/clients.png)
+![Clients](Screenshots/clients.png)
 
 ---
 
 ### Add New Client
 
-![Add New Client](screenshots/clients_create.png)
+![Add New Client](Screenshots/clients_create.png)
 
 ---
 
 ### Edit Client
 
-![Edit Client](screenshots/clients_edit.png)
+![Edit Client](Screenshots/clients_edit.png)
 
 ---
 
 ### Property Module
 
-![Properties](screenshots/properties.png)
+![Properties](Screenshots/properties.png)
 
 ---
 
 ### Add New Property
 
-![Add New Property](screenshots/properties_create.png)
+![Add New Property](Screenshots/properties_create.png)
 
 ---
 
 ### Staff & Branch Module
 
-![Staff](screenshots/staff.png)
+![Staff](Screenshots/staff.png)
 
 ---
 
 ### Rentals & Viewing Module
 
-![Rentals](screenshots/rentals.png)
+![Rentals](Screenshots/rentals.png)
 
 ---
 
 ### Payments & Reports Module
 
-![Payments](screenshots/payments.png)
+![Payments](Screenshots/payments.png)
 
 ---
 
 ### Database Tables
 
-![Database](screenshots/database.png)
+![Database](Screenshots/database.png)
 
 
 ---
