@@ -10,10 +10,10 @@ DreamHome is a web-based property rental management system . The system manages 
 
 | Name | Role | Module |
 |---|---|---|
-| [Jayson Rey Digang] | Project Controler / Developer | Module 2 - Client & Registration |
-| [Ricky Mark S. Pareja] | Developer | Module 1 - Property & Owner Management |
-| [Chien Maureen M. Enot] | Developer | Module 3 - Staff & Branch Management |
-| [Sirelle Timothy Mayon] | Developer | Module 4 - Rental & Viewing Management |
+| Jayson Rey Digang | Project Controler / Developer | Module 2 - Client & Registration |
+| Ricky Mark S. Pareja | Developer | Module 1 - Property & Owner Management |
+| Chien Maureen M. Enot | Developer | Module 3 - Staff & Branch Management |
+| Sirelle Timothy Mayon | Developer | Module 4 - Rental & Viewing Management |
 
 
 ---
@@ -183,10 +183,10 @@ Production: Railway MySQL
 
 | Module | Description | Assigned Developer |
 |---|---|---|
-| Module 1 | Property & Owner Management | [Ricky Mark S. Pareja] |
-| Module 2 | Client & Registration | [Jayson Rey Digang] |
-| Module 3 | Staff & Branch Management | [Chien Maureen M. Enot] |
-| Module 4 | Rental & Viewing Management | [Sirelle Timothy Mayon] |
+| Module 1 | Property & Owner Management | Ricky Mark S. Pareja |
+| Module 2 | Client & Registration | Jayson Rey Digang |
+| Module 3 | Staff & Branch Management | Chien Maureen M. Enot |
+| Module 4 | Rental & Viewing Management | Sirelle Timothy Mayon |
 
 
 ---
