@@ -13,12 +13,6 @@ Route::get('/', function () {
     return redirect('/login');
 });
 
-Route::get('/fix-password', function () {
-    \App\Models\User::where('email', 'admin@dreamhome.com')
-        ->update(['password' => bcrypt('password123')]);
-    return 'Password fixed!';
-});
-
 Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', function () {
         $totalProperties = \App\Models\PropertyForRent::count();
